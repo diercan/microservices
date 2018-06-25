@@ -106,7 +106,7 @@ namespace Tests
         {
             var board = TestBoards.Draw.Board;
             Assert.AreEqual(GameStatus.Over, board.Status, "Game should be over");
-            Assert.AreEqual(string.Empty, board.WinnerShape, "No winner");
+            Assert.AreEqual(true, board.WinnerShape.IsNone, "No winner");
         }
     }
 }
