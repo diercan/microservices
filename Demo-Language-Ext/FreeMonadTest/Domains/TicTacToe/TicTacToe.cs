@@ -1,11 +1,4 @@
-﻿using FreeMonadTest.Domains.TicTacToe;
-using LanguageExt;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static LanguageExt.Prelude;
+﻿using LanguageExt;
 using static IOExt;
 using FreeMonadTest.Domains.TicTacToe.Operations;
 using FreeMonadTest.Domains.TicTacToe.Records;
